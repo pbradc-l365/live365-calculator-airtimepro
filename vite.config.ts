@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/live365-calculator-airtimepro/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
